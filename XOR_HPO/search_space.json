@@ -1,0 +1,6 @@
+{
+    "features": {"_type": "choice", "_value": [2, 4, 8]},
+    "lr": {"_type": "uniform", "_value": [0.1, 0.2, 0.3]},
+    "momentum": {"_type": "uniform", "_value": [0, 1]},
+    "epochs": {"_type": "randint", "_value": [1000, 2000, 3000, 5000]}
+}
